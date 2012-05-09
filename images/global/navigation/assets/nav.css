@@ -1,0 +1,97 @@
+.about-gmcr_off {
+  background: url(sprite-global-navbar.png) 0px -140px no-repeat;
+  display: block;
+  width: 104px;
+  height: 33px;
+}
+
+.about-gmcr_on {
+  background: url(sprite-global-navbar.png) -106px -140px no-repeat;
+  display: block;
+  width: 104px;
+  height: 33px;
+}
+
+.careers_off {
+  background: url(sprite-global-navbar.png) -225px 0px no-repeat;
+  display: block;
+  width: 85px;
+  height: 33px;
+}
+
+.careers_on {
+  background: url(sprite-global-navbar.png) -225px -35px no-repeat;
+  display: block;
+  width: 85px;
+  height: 33px;
+}
+
+.corporate-social-responsibility_off {
+  background: url(sprite-global-navbar.png) 0px 0px no-repeat;
+  display: block;
+  width: 223px;
+  height: 33px;
+}
+
+.corporate-social-responsibility_on {
+  background: url(sprite-global-navbar.png) 0px -35px no-repeat;
+  display: block;
+  width: 223px;
+  height: 33px;
+}
+
+.corporate-social-responsibility_on {
+  background: url(sprite-global-navbar.png) 0px -35px no-repeat;
+  display: block;
+  width: 223px;
+  height: 33px;
+}
+
+.home_off {
+  background: url(sprite-global-navbar.png) -225px -70px no-repeat;
+  display: block;
+  width: 66px;
+  height: 33px;
+}
+
+.home_off {
+  background: url(sprite-global-navbar.png) -225px -70px no-repeat;
+  display: block;
+  width: 66px;
+  height: 33px;
+}
+
+.home_on {
+  background: url(sprite-global-navbar.png) -225px -105px no-repeat;
+  display: block;
+  width: 66px;
+  height: 33px;
+}
+
+.investor-relations_off {
+  background: url(sprite-global-navbar.png) 0px -70px no-repeat;
+  display: block;
+  width: 148px;
+  height: 33px;
+}
+
+.investor-relations_on {
+  background: url(sprite-global-navbar.png) 0px -105px no-repeat;
+  display: block;
+  width: 148px;
+  height: 33px;
+}
+
+.press-room_off {
+  background: url(sprite-global-navbar.png) 0px -175px no-repeat;
+  display: block;
+  width: 103px;
+  height: 33px;
+}
+
+.press-room_on {
+  background: url(sprite-global-navbar.png) -105px -175px no-repeat;
+  display: block;
+  width: 103px;
+  height: 33px;
+}
