@@ -207,12 +207,12 @@ header#main {
 	height:140px;
 }
 
-#csr-page #main-content {
+#main-content {
 	border-left: 1px solid #E9E8E8;
 	border-right: 1px solid #E9E8E8;	
 }
 
-.site-width-container {
+.corset {
 	margin:0 auto;
 	width:940px;
 	padding:0 10px;
@@ -223,16 +223,16 @@ header#main {
 /* 2.2 CSR General HTML 
 ----------------------------------------------- */
 
-#csr-page #main-content h1 { font-size: 22px; line-height:2 }
-#csr-page #main-content h2 { font-size: 18px; }
-#csr-page #main-content h3 { font-size: 16px; }
+#main-content h1 { font-size: 22px; line-height:2 }
+#main-content h2 { font-size: 18px; }
+#main-content h3 { font-size: 16px; }
 
-#csr-page a {
+a {
 	color: #5c8727;
 	text-decoration: none;
 }
 
-#csr-page a:hover, #csr-page a:active {
+a:hover, a:active {
 	text-decoration: underline;
 }
 
@@ -386,7 +386,7 @@ header#main nav ul li {
 
 #customer-care-number {
 	text-align:right;
-	border-bottom:dotted 1px #ccc;
+	border-bottom:dashed 1px #ccc;
 	font-size:1.3em;
 	padding:5px 0;
 }
@@ -395,7 +395,7 @@ header#main nav ul li {
 	width:160px;
 	float:left;
 	padding:1em 1.6em 0 0;
-	background: transparent url('/images/global/backgrounds/vertical-dotted.gif') repeat-y 170px 0px;
+	background: transparent url('/images/global/backgrounds/vertical-dash.gif') repeat-y 170px 0px;
 }
 
 #main-content > nav ul {
@@ -446,7 +446,7 @@ header#main nav ul li {
 .three-column #csr-main {
 	width: 580px;
 	padding-right:20px;
-	background: transparent url('/images/global/backgrounds/vertical-dotted.gif') repeat-y 590px 0px;
+	background: transparent url('/images/global/backgrounds/vertical-dash.gif') repeat-y 590px 0px;
 }
 
 /* 2.5.2 Two Column */
@@ -456,7 +456,7 @@ header#main nav ul li {
 }
 
 .two-column #csr-main aside {
-	border-top:dotted 1px #ccc;
+	border-top:dashed 1px #ccc;
 	margin:1em 0 0 0;
 	padding:1em 0;
 }
@@ -533,17 +533,18 @@ header#main nav ul li {
 /* 2.6 CSR Aside (Far right column) 
 ----------------------------------------------- */
 
-#csr-page #main-content > aside {
+#main-content > aside {
 	width:160px;
 	float:left;
 	padding-top:1em;
 }
 
-#csr-page #main-content > aside article {
+#main-content > aside h4,
+#main-content > aside article {
 	margin-bottom:1em;
 }
 
-#csr-page #main-content > aside article.white {
+#main-content > aside article.white {
 	padding:1em;
 	background-color:#fff;
 	border: solid 1px #ccc;
@@ -556,7 +557,7 @@ header#main nav ul li {
 	overflow: hidden;
 }
 
-#csr-page #main-content > aside ul {
+#main-content > aside ul {
 	margin:0 0 0 1em;
 	padding:0;
 }
@@ -735,7 +736,7 @@ aside#footer-brands ul li a {
 ----------------------------------------------- */
 
 #subfooter {
-	border-top:dotted 1px #ccc;
+	border-top:dashed 1px #ccc;
 	padding-top:1em;
 	margin-bottom:3em;	
 }
